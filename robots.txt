@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://rimshahmmalik-commits.github.io/portfolio/sitemap.xml
