@@ -13,3 +13,10 @@
 - Desktop and mobile captures were visually inspected.
 
 The app screenshots show synthetic records. Some support captures use mocked extraction and disconnected SMTP, described in the captions. This portfolio does not host the Python apps, send mail or call OpenAI. Live app performance and production-readiness are not claimed.
+
+## Subtle interactions — 11 November 2026
+Added a fine-pointer cursor glow, project-card and button hover feedback, one-time
+scroll reveals, active section navigation, a back-to-top control and screenshot
+gallery arrows. Browser checks passed on a 1440px desktop and a 390px touch
+viewport: gallery arrows, Escape, restored focus, mobile menu, no horizontal
+overflow and reduced-motion content visibility. JavaScript syntax check passed.
