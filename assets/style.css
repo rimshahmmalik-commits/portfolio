@@ -36,3 +36,5 @@
 @media(prefers-reduced-motion:reduce){.cursor-spotlight{display:none}.reveal{opacity:1;transform:none}.project-card:hover,.button:hover,.button:active,.back-to-top:hover{transform:none}html{scroll-behavior:auto}}
 
 .project-card{isolation:isolate}
+
+.project-links{flex-wrap:wrap;row-gap:12px}

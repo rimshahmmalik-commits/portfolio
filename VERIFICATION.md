@@ -20,3 +20,6 @@ scroll reveals, active section navigation, a back-to-top control and screenshot
 gallery arrows. Browser checks passed on a 1440px desktop and a 390px touch
 viewport: gallery arrows, Escape, restored focus, mobile menu, no horizontal
 overflow and reduced-motion content visibility. JavaScript syntax check passed.
+
+## Public demos — 11 November 2026
+Customer Support Hub: verified anonymous dashboard and real complaint submission to the review queue. Finance Assistant: verified anonymous dashboard and analytics navigation. Both links are on the home page and project pages. These are temporary synthetic sandboxes, not production services.
