@@ -23,3 +23,6 @@ overflow and reduced-motion content visibility. JavaScript syntax check passed.
 
 ## Public demos — 11 November 2026
 Customer Support Hub: verified anonymous dashboard and real complaint submission to the review queue. Finance Assistant: verified anonymous dashboard and analytics navigation. Both links are on the home page and project pages. These are temporary synthetic sandboxes, not production services.
+
+## Support light-theme refresh - 12 November 2026
+All five support screenshot assets and the social preview were updated. The screenshots come from a separate synthetic acceptance database. The customer-detail screenshot uses a mocked extraction fixture; no live OpenAI or email action was performed. Local checks confirmed the screenshot gallery still opens and supports keyboard navigation.
