@@ -80,7 +80,7 @@ if('IntersectionObserver' in window&&!reducedMotion.matches){
 }
 const backToTop=document.createElement('button');backToTop.type='button';backToTop.className='back-to-top';backToTop.setAttribute('aria-label','Back to top');backToTop.innerHTML='<span aria-hidden="true">↑</span>';backToTop.hidden=true;document.body.append(backToTop);
 backToTop.addEventListener('click',()=>{window.scrollTo({top:0,behavior:reducedMotion.matches?'instant':'smooth'});document.querySelector('.identity')?.focus({preventScroll:true});});
-const sectionLinks=[...document.querySelectorAll('#site-nav a')].map(link=>{const url=new URL(link.href);return url.pathname===location.pathname||url.pathname.replace(/index\.html$/,'')===location.pathname.replace(/index\.html$/,'')?{link,section:document.querySelector(url.hash||'#no-section')}:null;}).filter(item=>item?.section);
+const sectionLinks=[...document.querySelectorAll('#site-nav a')].map(link=>{const url=new URL(link.href);return url.pathname===location.pathname||url.pathname.replace(/index\.html$/,'')===location.pathname.replace(/index\.html$/,'')?{link,section:document.querySelector(url.hash||'#no-section')}:null;}).filter(item=>item?.section).sort((a,b)=>(a.section.compareDocumentPosition(b.section)&Node.DOCUMENT_POSITION_FOLLOWING)?-1:1);
 let scrollFrame=0;
 function updateScrollState(){
  backToTop.hidden=window.scrollY<600;
